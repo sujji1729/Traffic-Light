@@ -1,0 +1,40 @@
+
+.bg-container {
+    background-color: #86d2f2;
+    height: 100vh;
+    padding: 15px;
+}
+
+.traffic-light {
+    font-family: Roboto;
+    color: #1f1d41;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.button {
+    background-color: #1f1d41;
+    height: 35px;
+    width: 65px;
+    color: white;
+    font-family: Roboto;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.signal-container {
+    background-color: #1f1d41;
+    padding: 20px;
+    width: 14vh;
+    border-radius: 32px;
+}
+
+.signal {
+    background-color: #4b5069;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}

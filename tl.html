@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Title</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="tl.css">
+
+  </head>
+
+  <body>
+
+    <div class="bg-container text-center">
+        <h1 class="traffic-light">Traffic Light</h1>
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column m-auto">
+                <button id="stopButton" class="button" onclick="onRed()">Stop</button>
+                <button id="readyButton" class="button" onclick="onYellow()">Ready</button>
+                <button id="goButton" class="button" onclick="onGreen()">Go</button>
+            </div>
+            <div class="signal-container">
+                <div id="stopLight" class="signal"></div>
+                <div id="readyLight" class="signal"></div>
+                <div id="goLight" class="signal"></div>
+            </div>
+        </div>
+    </div>
+      
+    <!-- JavaScript -->
+     <script src="tl.js"></script>
+
+  </body>
+</html>
